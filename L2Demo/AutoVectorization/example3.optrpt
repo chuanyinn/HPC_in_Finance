@@ -1,0 +1,66 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+  WHOLE PROGRAM (SAFE) [EITHER METHOD]: false
+  WHOLE PROGRAM (SEEN) [TABLE METHOD]: true
+  WHOLE PROGRAM (READ) [OBJECT READER METHOD]: false
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+In the inlining report below:
+   "sz" refers to the "size" of the routine. The smaller a routine's size,
+      the more likely it is to be inlined.
+   "isz" refers to the "inlined size" of the routine. This is the amount
+      the calling routine will grow if the called routine is inlined into it.
+      The compiler generally limits the amount a routine can grow by having
+      routines inlined into it.
+
+Begin optimization report for: main()
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (main()) [1/1=100.0%] example3.cpp(5,1)
+  -> EXTERN: (11,10) rand()
+  -> EXTERN: (12,10) rand()
+  -> EXTERN: (18,4) printf(const char *, ...)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at example3.cpp(9,2)
+   remark #15382: vectorization support: call to function rand() cannot be vectorized   [ example3.cpp(11,10) ]
+   remark #15382: vectorization support: call to function rand() cannot be vectorized   [ example3.cpp(12,10) ]
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed OUTPUT dependence between call:rand() line 11 and call:rand() line 12
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 12 and  line 11
+   remark #25436: completely unrolled by 8  
+LOOP END
+
+LOOP BEGIN at example3.cpp(15,2)
+   remark #15388: vectorization support: reference c has aligned access   [ example3.cpp(16,3) ]
+   remark #15388: vectorization support: reference a has aligned access   [ example3.cpp(16,3) ]
+   remark #15388: vectorization support: reference b has aligned access   [ example3.cpp(16,3) ]
+   remark #15305: vectorization support: vector length 4
+   remark #15427: loop was completely unrolled
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 4.800 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================

@@ -1,0 +1,105 @@
+11 [140295198057216] INFO perfrun.launcher <> - Launcher main begin
+12 [140295198057216] INFO perfrun.launcher <> - MessageCatalogInit finished
+12 [140295198057216] INFO perfrun.launcher <> - Launcher instance created
+12 [140295198057216] INFO perfrun.launcher <> - argc = 7; cmdline = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 9 --option-file /home/chuanyin/L2Demo/advisor/e000/hs000/config/runss.options 
+69 [140295198057216] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+70 [140295198057216] INFO perfrun.launcher <> - create file finder object
+70 [140295198057216] INFO perfrun.launcher <> - create a result directory: pattern = /home/chuanyin/L2Demo/advisor/e000/hs000 pid = 4294967295
+72 [140295198057216] INFO perfrun.sdk <> - checked that the directory /home/chuanyin/L2Demo/advisor/e000/hs000 is a local directory
+72 [140295198057216] INFO perfrun.sdk <> - the directory /home/chuanyin/L2Demo/advisor/e000/hs000 is located on a share or its FS ID is unknown 1196443219
+72 [140295198057216] INFO perfrun.sdk <> - checked that the directory /home/chuanyin/advixe-tmp-chuanyin is a local directory
+72 [140295198057216] INFO perfrun.sdk <> - the directory /home/chuanyin/advixe-tmp-chuanyin is located on a share or its FS ID is unknown 1196443219
+73 [140295198057216] INFO perfrun.launcher <> - create data directory = /home/chuanyin/L2Demo/advisor/e000/hs000/data.0
+73 [140295198057216] INFO perfrun.launcher <> - Creating the master collection flag
+75 [140295198057216] INFO perfrun.launcher <> - Done creating the master collection flag
+79 [140295068591872] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+79 [140295068591872] INFO perfrun.sdk <> - Allocating TMU :/home/chuanyin/L2Demo/advisor/e000/hs000/data.0/systemcollector-94065-midway3-login3.rcc.local.sc
+79 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+79 [140295068591872] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+80 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+80 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+80 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+80 [140295068591872] INFO perfrun.mrte <> - system-wide mode is 0
+80 [140295068591872] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+131 [140295068591872] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/chuanyin/L2Demo/advisor/e000/hs000/data.0
+131 [140295068591872] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=midway3-login3.rcc.local
+131 [140295068591872] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime
+131 [140295068591872] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/compiler/lib/intel64_lin:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/lib:/software/slurm-current-el8-x86_64/lib
+131 [140295068591872] INFO perfrun.mrte <> - Data directory: /home/chuanyin/L2Demo/advisor/e000/hs000/data.0
+131 [140295068591872] INFO perfrun.mrte <> - Mrte plugin is initialized
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+131 [140295068591872] INFO perfrun.tpss <> - initialize tpss controller
+131 [140295068591872] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+132 [140295068591872] INFO perfrun.tpss <> - default obj-size-min=1024
+132 [140295068591872] INFO perfrun.tpss <> - default hash-table-size=0
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295068591872] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/compiler/lib/intel64_lin:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/lib:/software/slurm-current-el8-x86_64/lib
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime/libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime/libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime/libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime/libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime/libittnotify_collector.so:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime/libittnotify_collector.so
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/chuanyin/L2Demo/advisor/e000/hs000/data.0
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = midway3-login3.rcc.local
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime
+132 [140295198057216] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/runtime:/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/runtime:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/compiler/lib/intel64_lin:/software/intel/oneapi_hpc_2022.1/compiler/2022.0.1/linux/lib:/software/slurm-current-el8-x86_64/lib
+133 [140295198057216] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+133 [140295198057216] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./example2
+135 [140295198057216] INFO perfrun.launcher <> - Launcher: command line to start after modification = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/bin64/pin -error_file /home/chuanyin/L2Demo/advisor/e000/hs000/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib64/libtpsstool.so -t /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/lib32/libtpsstool.so -server_name tpss_ipc.94065 -prd_dir /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0 -- ./example2
+135 [140295198057216] INFO perfrun.launcher <> - ProcessCreator object was created
+137 [140295198057216] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+141 [140295068591872] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:797
+145 [140295068591872] WARN perfrun.sdk <> - SEP tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:600
+145 [140295068591872] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:756
+145 [140295068591872] WARN perfrun.sdk <> - amplxe-perf tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:616
+145 [140295068591872] WARN perfrun.sdk <> - Device mapping through perf is not available on current kernel, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:954
+147 [140295068591872] WARN perfrun.sdk <> - SEP tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:600
+147 [140295068591872] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:756
+147 [140295068591872] WARN perfrun.sdk <> - SEP tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:600
+147 [140295068591872] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:756
+147 [140295068591872] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:198
+154 [140295068591872] INFO perfrun.vdso <> - Helper runtool '/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/bin32/advixe-runss -dump-vdso -r /home/chuanyin/L2Demo/advisor/e000/hs000 --tmp-dir /home/chuanyin/advixe-tmp-chuanyin' returned 1
+255 [140295068591872] INFO perfrun.vdso <> - Helper runtool '/software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/bin64/advixe-runss -dump-vdso -r /home/chuanyin/L2Demo/advisor/e000/hs000 --tmp-dir /home/chuanyin/advixe-tmp-chuanyin' returned 0
+255 [140295068591872] INFO perfrun.itt <> - start itt controller for pid #94074
+256 [140295068591872] INFO perfrun.tpss <> - start tpss controller for pid #94074
+306 [140295198057216] INFO perfrun.launcher <> - Launcher: all plugins were started
+306 [140295198057216] INFO perfrun.launcher <> - DirectoryMonitor object was created
+306 [140295198057216] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+306 [140295198057216] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+306 [140295198057216] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+307 [140295198057216] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+318 [140295198057216] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+2337 [140295198057216] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+2341 [140295068591872] INFO perfrun.itt <> - detach itt controller
+2341 [140295068591872] INFO perfrun.itt <> - detach itt controller done
+2341 [140295068591872] INFO perfrun.tpss <> - stop tpss controller
+2342 [140295068591872] INFO perfrun.sdk <> - De-allocating TMU: /home/chuanyin/L2Demo/advisor/e000/hs000/data.0/systemcollector-94065-midway3-login3.rcc.local.sc
+2342 [140295068591872] INFO perfrun.system <> - closed the system trace file: /home/chuanyin/L2Demo/advisor/e000/hs000/data.0/systemcollector-94065-midway3-login3.rcc.local.sc
+2343 [140295198057216] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+2343 [140295198057216] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+2343 [140295198057216] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+2343 [140295198057216] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+2343 [140295198057216] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:212
+2343 [140295198057216] INFO perfrun.launcher <> - Application exit code: 0
+2343 [140295198057216] INFO perfrun.launcher <> - Exit code: 0

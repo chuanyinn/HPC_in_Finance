@@ -1,0 +1,11 @@
+
+Intel(R) Advisor Command Line Tool
+Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
+Survey Data version="1.1.0"
+
+ID     Function Call Sites and Loops      Total Time   Self Time         Type                                                    Why No Vectorization                                              Vector ISA   Compiler Estimated Gain   Transformations   Source Location    Module    
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 3   [loop in main at example2.cpp:21]        1.460s      1.460s              Scalar   vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override                                                  Unrolled   example2.cpp:21   example2   
+ 1   [loop in main at example2.cpp:13]        0.120s      0.120s   Vectorized (Body)                                                                                                                     SSE2                     4.00x          Unrolled   example2.cpp:13   example2   
+ 2   [loop in main at example2.cpp:11]        0.120s          0s              Scalar                                                                           inner loop was already vectorized                                                            example2.cpp:11   example2   
+ 4   [loop in main at example2.cpp:19]        1.460s          0s              Scalar                                           outer loop was not auto-vectorized: consider using SIMD directive                                                            example2.cpp:19   example2   

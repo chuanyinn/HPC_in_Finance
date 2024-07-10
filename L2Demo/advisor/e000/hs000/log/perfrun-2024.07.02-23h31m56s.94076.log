@@ -1,0 +1,35 @@
+11 [140569890845440] INFO perfrun.launcher <> - Launcher main begin
+13 [140569890845440] INFO perfrun.launcher <> - MessageCatalogInit finished
+13 [140569890845440] INFO perfrun.launcher <> - Launcher instance created
+13 [140569890845440] INFO perfrun.launcher <> - argc = 6; cmdline = /software/intel/oneapi_hpc_2022.1/advisor/2022.0.0/bin64/advixe-runss -dump-vdso -r /home/chuanyin/L2Demo/advisor/e000/hs000 --tmp-dir /home/chuanyin/advixe-tmp-chuanyin 
+66 [140569890845440] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+67 [140569890845440] INFO perfrun.launcher <> - create file finder object
+71 [140569761380096] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+71 [140569761380096] INFO perfrun.launcher <> - plugin [system] was disabled because it doesn't support the given collection type.
+71 [140569761380096] INFO perfrun.vdso <> - dumping [vdso] pseudomodule
+78 [140569761380096] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [mrte] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569761380096] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+78 [140569890845440] INFO perfrun.launcher <> - Application exit code: 0
+79 [140569890845440] INFO perfrun.launcher <> - Exit code: 0

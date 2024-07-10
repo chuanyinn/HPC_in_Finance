@@ -1,0 +1,26 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      2720	    0	      0	                                  _start	/home/chuanyin/L2Demo/advisor/example2	2720	47	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      2765	    0	      0	                                  _start	/home/chuanyin/L2Demo/advisor/example2	2720	47	0	1	0	0	0	0	0	0	0	0
+         3	        22	    240882	    1	      1	     [Loop@0x3ac64 in __libc_start_main]	/lib64/libc.so.6	240740	230	0	3	0	0	0	0	0	0	0	0
+         4	        12	      3094	    1	      0	               [Loop at line 13 in main]	/home/chuanyin/L2Demo/advisor/example2	3072	65	3137	2	0	0	0	0	0	0	0	0
+         5	        12	      3098	    1	      0	               [Loop at line 13 in main]	/home/chuanyin/L2Demo/advisor/example2	3072	65	3137	2	0	0	0	0	0	0	0	0
+         6	        16	      3197	    1	      0	               [Loop at line 21 in main]	/home/chuanyin/L2Demo/advisor/example2	3171	55	3226	7	0	0	0	0	0	0	0	0
+         7	        16	      3204	    1	      0	               [Loop at line 21 in main]	/home/chuanyin/L2Demo/advisor/example2	3171	55	3226	7	0	0	0	0	0	0	0	0
+         8	        16	      3187	    1	      0	               [Loop at line 21 in main]	/home/chuanyin/L2Demo/advisor/example2	3171	55	3226	7	0	0	0	0	0	0	0	0
+         9	        16	      3207	    1	      0	               [Loop at line 21 in main]	/home/chuanyin/L2Demo/advisor/example2	3171	55	3226	7	0	0	0	0	0	0	0	0
+        10	        16	      3210	    1	      0	               [Loop at line 21 in main]	/home/chuanyin/L2Demo/advisor/example2	3171	55	3226	7	0	0	0	0	0	0	0	0
+        11	         3	      3016	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        12	        11	      3072	    1	      0	               [Loop at line 11 in main]	/home/chuanyin/L2Demo/advisor/example2	3016	141	3157	6	0	0	0	0	0	0	0	0
+        13	         3	      3094	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        14	         3	      3098	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        15	         3	      3161	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        16	        15	      3171	    1	      0	               [Loop at line 19 in main]	/home/chuanyin/L2Demo/advisor/example2	3161	83	3244	8	0	0	0	0	0	0	0	0
+        17	         3	      3197	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        18	         3	      3204	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        19	         3	      3187	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        20	         3	      3207	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        21	         3	      3210	    0	      0	                                    main	/home/chuanyin/L2Demo/advisor/example2	2960	304	0	5	0	0	0	0	0	0	0	0
+        22	         2	    240740	    0	      1	                       __libc_start_main	/lib64/libc.so.6	240640	446	0	4	0	0	0	0	0	0	0	0
+        23	         2	    240882	    0	      1	                       __libc_start_main	/lib64/libc.so.6	240640	446	0	4	0	0	0	0	0	0	0	0
+        24	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	10	0	0	0	0	0	0	0	0
